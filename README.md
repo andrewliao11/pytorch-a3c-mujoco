@@ -58,5 +58,8 @@ alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
 " target="_blank"><img src="http://img.youtube.com/vi/WNiitHoz8x4/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
 
+## TODO
+I implement the ShareRMSProp in ```my_optim.py```, but I haven't tried it yet.
+
 ## Reference
 - [pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c)
