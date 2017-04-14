@@ -8,11 +8,13 @@ This code aims to solve some control problems, espicially in Mujoco, and is high
 - sample the data from the gaussian distribution
 - modify entropy
 
+Note that this repo is only compatible with Mujoco in OpenAI gym. If you want to train agent in Atari domain, please refer to [pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c).
+
 ## Requirements
 - gym
 - mujoco-py
 - pytorch
-- matplotlib
+- matplotlib (optional)
 - seaborn (optional)
 
 ## Usage
@@ -44,8 +46,17 @@ In some case that you want to check if you code runs as you want, you might reso
 
 ### video
 
+- InvertedPendulum-v1
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=E7QlRIkKuXo
+" target="_blank"><img src="http://img.youtube.com/vi/E7QlRIkKuXo/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
+
+- InvertedDoublePendulum-v1
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=WNiitHoz8x4
+" target="_blank"><img src="http://img.youtube.com/vi/WNiitHoz8x4/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
 
 ## Reference
 - [pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c)
-
-
