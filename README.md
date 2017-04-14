@@ -1,2 +1,7 @@
-# pytorch-a3c-mujoco
-Implement A3C for Mujoco gym ends
+# Continuous A3C
+
+This code aims to solve some control problem, espicially in Mujoco. 
+
+
+
+
