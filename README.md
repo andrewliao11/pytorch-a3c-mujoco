@@ -1,5 +1,7 @@
 # Continuous A3C
 
+![](asset/logo.png)
+
 This code aims to solve some control problems, espicially in Mujoco, and is highly based on [pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c). What's difference between this repo and pytorch-a3c:
 
 - compatible to Mujoco envionments
