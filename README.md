@@ -12,13 +12,6 @@ This code aims to solve some control problems, espicially in Mujoco, and is high
 
 Note that this repo is only compatible with Mujoco in OpenAI gym. If you want to train agent in Atari domain, please refer to [pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c).
 
-## Requirements
-- gym
-- mujoco-py
-- pytorch
-- matplotlib (optional)
-- seaborn (optional)
-
 ## Usage
 
 There're three tasks/modes for you: train, eval, develop.
@@ -56,6 +49,8 @@ The plot of total reward/episode length in 1000 steps:
 
 ![](asset/InvertedDoublePendulum-v1.a3c.log.png)
 
+**the x axis denote the time in minute**
+
 ### video
 
 - InvertedPendulum-v1
@@ -69,6 +64,13 @@ alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=WNiitHoz8x4
 " target="_blank"><img src="http://img.youtube.com/vi/WNiitHoz8x4/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
+
+## Requirements
+- gym
+- mujoco-py
+- pytorch
+- matplotlib (optional)
+- seaborn (optional)
 
 ## TODO
 I implement the ShareRMSProp in ```my_optim.py```, but I haven't tried it yet.
