@@ -1,6 +1,6 @@
 # Continuous A3C
 
-<p><img src="asset/logo.png" alt="Smiley face" align="middle"></p>
+<p><img src="asset/logo.png" align="middle"></p>
 
 This code aims to solve some control problems, espicially in Mujoco, and is highly based on [pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c). What's difference between this repo and pytorch-a3c:
 
