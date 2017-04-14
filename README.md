@@ -20,22 +20,30 @@ This code aims to solve some control problems, espicially in Mujoco, and is high
 There're three tasks/modes for you: train, eval, develop.
 
 - train:
-```python
+```
 python main.py --env-name InvertedPendulum-v1 --num-processes 16 --task train
 ```
 - eval:
-```python
+```
 python main.py --env-name InvertedPendulum-v1 --task eval --display True --load_ckpt ckpt/a3c/InvertedPendulum-v1.a3c.100 
 ```
 
 You can choose to display or not using ```display flags```
 
 - develop:
-```python
+```
 python main.py --env-name InvertedPendulum-v1 --num-processes 16 --task develop
 ```
 
 In some case that you want to check if you code runs as you want, you might resort to ```pdb```. Here, I provide a develop mode, which only runs in one thread (easy to debug).
+
+
+## Experiment results
+
+### graph
+
+### video
+
 
 ## Reference
 - [pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c)
