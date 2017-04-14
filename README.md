@@ -42,7 +42,17 @@ In some case that you want to check if you code runs as you want, you might reso
 
 ## Experiment results
 
-### graph
+### learning curve
+
+The plot of total reward/episode length in 1000 steps:
+
+- InvertedPendulum-v1
+
+![](asset/InvertedPendulum-v1.a3c.log.png)
+
+- InvertedDoublePendulum-v1
+
+![](asset/InvertedDoublePendulum-v1.a3c.log.png)
 
 ### video
 
