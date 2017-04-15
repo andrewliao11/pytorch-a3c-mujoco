@@ -1,4 +1,4 @@
-# Continuous A3C
+# pytorch-a3c-mujoco
 
 <p><img src="asset/logo.png" align="middle"></p>
 
