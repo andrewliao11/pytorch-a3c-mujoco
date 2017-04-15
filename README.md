@@ -2,6 +2,9 @@
 
 <p><img src="asset/logo.png" align="middle"></p>
 
+
+***Disclaimer: my implementation right now is unstable (you ca refer to the learning curve below), I'm not sure if it's my problems. All comments are welcomed and feel free to contact me!***
+
 This code aims to solve some control problems, espicially in Mujoco, and is highly based on [pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c). What's difference between this repo and pytorch-a3c:
 
 - compatible to Mujoco envionments
