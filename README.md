@@ -45,6 +45,8 @@ The plot of total reward/episode length in 1000 steps:
 
 ![](asset/InvertedPendulum-v1.a3c.log.png)
 
+In InvertedPendulum-v1, total reward exactly equal to episode length.
+
 - InvertedDoublePendulum-v1
 
 ![](asset/InvertedDoublePendulum-v1.a3c.log.png)
