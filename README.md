@@ -54,7 +54,10 @@ In InvertedPendulum-v1, total reward exactly equal to episode length.
 
 ![](asset/InvertedDoublePendulum-v1.a3c.log.png)
 
-**the x axis denote the time in minute**
+**Note that the x axis denote the time in minute**
+
+The above curve is plotted from ```python plot.py --log_path ./logs/a3c/InvertedPendulum-v1.a3c.log```
+
 
 ### video
 
